@@ -19,6 +19,6 @@ export default defineConfig({
 
   ],
   build: {
-    outDir: `gemma-extension-build`
+    outDir: `extension-build`
   }
 })
