@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Gemma Extension",
+  "version": "0.0.10",
+  "action": {
+    "default_title": "Popup",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "public/assets/icons/logo55.png",
+    "32": "public/assets/icons/logo55.png",
+    "64": "public/assets/icons/logo55.png",
+    "128": "public/assets/icons/logo55.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "js": [
+        "content-script/src/main.tsx"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background/index.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://dev.gemma.zien.vn/*",
+    "http://dev.gemma.zien.vn/*"
+  ]
+}
