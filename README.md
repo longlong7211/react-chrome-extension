@@ -6,11 +6,11 @@
 
 
 ### MENU
-- 1. Setup and install
-- 2. Code organization
-- 3. Dev and build
-- 4. Zip and upload to store
-- 5. Environment template
+- 1 Setup and install
+- 2 Code organization
+- 3 Dev and build
+- 4 Zip and upload to store
+- 5 Environment template
 
 ## 1. Setup and install
 
@@ -80,3 +80,5 @@ VITE_APP_ENVIROMENT=         //optional
 VITE_APP_VERSION=            //optional
 VITE_APP_API=                //require if you use axios
 ```
+
+#### Good luck to you!
